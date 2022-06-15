@@ -24,9 +24,9 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 🖇 Generating Pyrogram String Session
     
 > Anda memerlukan APP ID & API HASH Telegram untuk mengambil sesi Pyrogram. ambil APP ID dan API Hash di my.telegram.org
-- Generate a Telethon String Session via [Replit](https://replit.com/@IndomieGenetik/Telegram-String?lite=1&outputonly=1)
+- Generate a Pyrogram String Session via [Replit](https://replit.com/@IndomieGenetik/Telegram-String?lite=1&outputonly=1)
 
-- Generate a Telethon String Session via [Telegram String Generation Bot](https://t.me/IndomieStringBot)
+- Generate a Pyrogram String Session via [Pyrogram String Generation Bot](https://t.me/IndomieStringBot)
 
 ## 🏷 Support
 
