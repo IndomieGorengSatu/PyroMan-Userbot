@@ -19,7 +19,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/PyroMan-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>  
 
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=JiRsb25nIDIwMDkw"><img src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=SW5kb21pZUdvcmVuZ1NhdHUvUHlyb01hbi1Vc2VyYm90IG1haW4"><img src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ## 🖇 Generating Pyrogram String Session
     
