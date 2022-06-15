@@ -13,14 +13,20 @@ Gunakan userbot ini dengan bijak.
 Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya.
 ```
 
-<h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
-<p align="center"><a href="https://risman.vercel.app/deploy-pyro.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<h2 align="center">
+   Heroku Deployment
+</h2>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/IndomieGorengSatu/PyroMan-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=heroku" width="210" height="34.45" /></a></p>  
+
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=JiRsb25nIDIwMDkw"><img src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ## 🖇 Generating Pyrogram String Session
     
 > Anda memerlukan APP ID & API HASH Telegram untuk mengambil sesi Pyrogram. ambil APP ID dan API Hash di my.telegram.org
-- Generate Session via <a href="https://repl.it/@mrismanaziz/stringen?lite=1&outputonly=1">Repl</a>
-- Generate Session via <a href="https://t.me/StringManRobot">Telegram String Generation Bot</a>
+- Generate a Telethon String Session via [Replit](https://replit.com/@IndomieGenetik/Telegram-String?lite=1&outputonly=1)
+
+- Generate a Telethon String Session via [Telegram String Generation Bot](https://t.me/IndomieStringBot)
 
 ## 🏷 Support
 
