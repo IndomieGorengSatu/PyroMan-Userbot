@@ -20,6 +20,10 @@
       "value": "0",
       "required": false
     },
+    "ALIVE_LOGO": {
+      "description": "Dapatkan link ALIVE_LOGO mu di telegra.ph",
+      "required": false
+    },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
       "required": false
