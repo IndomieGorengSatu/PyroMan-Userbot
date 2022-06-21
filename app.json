@@ -17,11 +17,11 @@
     },
     "BOTLOG_CHATID": {
       "description": "Buatlah grup telegram publik lalu masukan @IndomieMusicRobot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
-      "value": "0",
       "required": false
     },
     "ALIVE_LOGO": {
       "description": "Dapatkan link ALIVE_LOGO mu di telegra.ph",
+      "value": "https://telegra.ph/file/3aeb0f9581ffb876e8bc5.png",
       "required": false
     },
     "HEROKU_API_KEY": {
