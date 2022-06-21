@@ -8,9 +8,10 @@
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 from pyrogram import idle
+from uvloop import install
 
 from config import *
-from ProjectMan import BOTLOG_CHATID, LOGGER, LOOP, bots
+from ProjectMan import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from ProjectMan.helpers.misc import git, heroku
 
 MSG_ON = """
@@ -27,17 +28,19 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("IndomieProject")
             await bot.join_chat("IndomieStore")
+            await bot.join_chat("IndomieProject")
             await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER, CMD_HANDLER))
         except Exception as a:
             LOGGER("main").warning(a)
     await idle()
+    await aiosession.close()
 
 
 if __name__ == "__main__":
     LOGGER("ProjectMan").info("Starting PyroMan-UserBot")
     LOGGER("ProjectMan").info(f"Total Clients = {len(bots)} Users")
+    install()
     git()
     heroku()
     LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
