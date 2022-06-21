@@ -11,6 +11,7 @@ google==3.0.0
 googlesearch-python== 1.0.1
 gpytranslate
 gtts
+uvloop
 heroku3
 humanize
 lottie
